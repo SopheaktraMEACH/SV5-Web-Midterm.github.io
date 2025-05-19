@@ -17,31 +17,31 @@ export const headerHTML = `
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li class="header-item"><a href="#hero" class="active">Home</a></li>
-            <li class="header-item"><a href="#about">About</a></li>
-            <li class="header-item"><a href="#features">Services</a></li>
-            <li class="header-item"><a href="#features">Donate</a></li>
+            <li class="header-item"><a href="./index.html">Home</a></li>
+            <li class="header-item"><a href="./about.html">About</a></li>
+            <li class="header-item"><a href="./service-details.html">Services</a></li>
+            <li class="header-item"><a href="./donate.html">Donate</a></li>
             <li class="dropdown header-item">
               <a href="#"><span>Our Courses</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
               </a>
               <ul class="option-dropdown">
-                <li><a href="#">Software Engineering</a></li>
-                <li><a href="#">Project Management</a></li>
-                <li><a href="#">Network Engineering</a></li>
-                <li><a href="#">Database Administrator</a></li>
-                <li><a href="#">Graphic Design</a></li>
-                <li><a href="#">Mobile Development</a></li>
-                <li><a href="#">Web Development</a></li>
+                <li><a href="./courses.html">Software Engineering</a></li>
+                <li><a href="./courses.html">Project Management</a></li>
+                <li><a href="./courses.html">Network Engineering</a></li>
+                <li><a href="./courses.html">Database Administrator</a></li>
+                <li><a href="./courses.html">Graphic Design</a></li>
+                <li><a href="./courses.html">Mobile Development</a></li>
+                <li><a href="./courses.html">Web Development</a></li>
               </ul>
             </li>
-            <li class="header-item"><a href="#contact">Login</a></li>
+            <li class="header-item"><a href="./login.html">Login</a></li>
             <li></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="btn-getstarted header-item" href="index.html#about">Enroll Now!</a>
+        <a class="btn-getstarted header-item" href="./enroll.html">Enroll now!</a>
       </div>
     </header>
 `;
