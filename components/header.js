@@ -41,7 +41,7 @@ export const headerHTML = `
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="btn-getstarted header-item" href="index.html#about">Enroll Now!</a>
+        <a class="btn-getstarted header-item" href="index.html#about">Enroll now!</a>
       </div>
     </header>
 `;
