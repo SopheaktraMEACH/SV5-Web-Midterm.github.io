@@ -20,6 +20,7 @@ export const headerHTML = `
             <li class="header-item"><a href="#hero" class="active">Home</a></li>
             <li class="header-item"><a href="#about">About</a></li>
             <li class="header-item"><a href="#features">Services</a></li>
+            <li class="header-item"><a href="#features">Donate</a></li>
             <li class="dropdown header-item">
               <a href="#"><span>Our Courses</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
