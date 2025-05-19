@@ -2328,3 +2328,10 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+*{
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
