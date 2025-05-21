@@ -16,12 +16,12 @@ const headerHTML = `
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li class="header-item"><a href="./index.html">Home</a></li>
-            <li class="header-item"><a href="./about.html">About</a></li>
-            <li class="header-item"><a href="./service-details.html">Services</a></li>
-            <li class="header-item"><a href="./donate.html">Donate</a></li>
+            <li class="header-item"><a class="header-element" href="./index.html">Home</a></li>
+            <li class="header-item"><a class="header-element" href="./about.html">About</a></li>
+            <li class="header-item"><a class="header-element" href="./service-details.html">Services</a></li>
+            <li class="header-item"><a class="header-element" href="./donate.html">Donate</a></li>
             <li class="dropdown header-item">
-              <a href="#"><span>Our Courses</span>
+              <a class="header-element" href="#"><span>Our Courses</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
               </a>
               <ul class="option-dropdown">
@@ -34,7 +34,9 @@ const headerHTML = `
                 <li><a href="./courses.html">Web Development</a></li>
               </ul>
             </li>
-            <li class="header-item"><a href="./login.html">Login</a></li>
+            <li class="header-item"><a class="header-element" href="./login.html">Login</a></li>
+            <li style="display: block;"></li>
+
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
